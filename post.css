@@ -1,0 +1,121 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg);
+	background-size: :cover;
+	font-family: sans-serif;
+}
+.postadd
+{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 800px;
+	height: 1050px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.rg
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/4);
+	left: calc(50% - 50px);
+}
+h1
+{   font-weight: bold;
+	margin: 0;
+	padding: 0 0 20px;
+	color: #57ec0c;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-shadow: 4px 2px #57ec0c;
+}
+.postadd p
+{
+	font-size: 23px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+	border: 5px;
+}
+.postadd input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.postadd input[type="text"],
+.postadd input[type="password"],
+.postadd input[type="tel"],
+.postadd input[type="email"],
+.postadd input[type="date"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.postadd input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #ffff;
+	font-size: 24px;
+	font-weight: bold;
+	background: #07f543;
+	cursor: pointer;
+	text-shadow: 2px 2px #fff;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.postadd input[type="submit"]:hover
+{
+	background: #07f5d1;
+	color: #262626;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.70);
+}
+.gen
+{
+position: absolute;
+}
+.gen select
+{
+	background: #fff;
+	color: #0563af;
+	padding: 5px;
+	border: none;
+	opacity: 0.5;
+}
+.dis
+{
+position: absolute;
+}
+.dis select
+{
+	background: #fff;
+	color: #0563af;
+	padding: 5px;
+	border: none;
+	opacity: 0.5;
+}
+
+::placeholder {
+  color: #aaadb0;
+  opacity: ;
